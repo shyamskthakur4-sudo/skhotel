@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="50" fill="#101012" />
+  <circle
+    cx="50" cy="50" r="37"
+    fill="none" stroke="#E6B325" stroke-width="6.5"
+    stroke-linecap="round" pathLength="100"
+    stroke-dasharray="73 27"
+    transform="rotate(38 50 50)"
+  />
+  <text
+    x="51" y="63"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-weight="700" font-size="34" letter-spacing="-1"
+    fill="#E6B325" text-anchor="middle"
+  >SK</text>
+</svg>
