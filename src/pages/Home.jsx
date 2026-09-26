@@ -123,7 +123,7 @@ export default function Home() {
           <motion.div className="hero__meta"
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.2, duration: 0.9 }}>
             <div><b>27</b><span>Premium Rooms</span></div>
-            <div><b>700 m</b><span>To the Mandir</span></div>
+            <div><b>300 m</b><span>To the Mandir</span></div>
             <div><b>3</b><span>Room Categories</span></div>
           </motion.div>
         </motion.div>
@@ -261,7 +261,7 @@ export default function Home() {
         <div className="container split split--rev">
           <Reveal className="split__media" y={60}>
             <SmartImage src={IMG.exteriorDusk} alt="Shri Kalyan Hotel exterior" />
-            <div className="split__badge"><b>700 m</b><span>To Shyam Mandir</span></div>
+            <div className="split__badge"><b>300 m</b><span>To Shyam Mandir</span></div>
           </Reveal>
           <div>
             <SectionHead eyebrow="The Location" title="Steps away from darshan" />
@@ -269,7 +269,7 @@ export default function Home() {
             <Reveal delay={0.16}>
               <ul className="split__list">
                 <li><Icon name="mapPin" /> {SITE.address}</li>
-                <li><Icon name="check" /> Easy 8–10 minute walk to Shyam Mandir</li>
+                <li><Icon name="check" /> Easy 4–5 minute walk to Shyam Mandir</li>
                 <li><Icon name="check" /> Spacious, secure on-site parking</li>
               </ul>
             </Reveal>
