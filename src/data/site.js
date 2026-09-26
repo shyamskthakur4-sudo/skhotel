@@ -8,9 +8,9 @@ export const SITE = {
   about:
     'With 27 well-appointed rooms, the hotel provides a perfect blend of comfort, elegance and modern amenities. Each room is thoughtfully designed with a pleasant ambience to ensure a comfortable and memorable stay.',
   location:
-    'Located just 700 meters from the temple, Shri Kalyan Hotel & Restaurant offers convenient access to Shyam Mandir while providing guests with a peaceful and comfortable place to relax after darshan.',
+    'Located just 300 meters from the temple, Shri Kalyan Hotel & Restaurant offers convenient access to Shyam Mandir while providing guests with a peaceful and comfortable place to relax after darshan.',
   address: 'Plot No. 14, Nand Vihar Colony, Near Shyam Temple, Khatu Shyam Ji — 332602',
-  distance: '700 m from Khatu Shyam Ji Mandir',
+  distance: '300 m from Khatu Shyam Ji Mandir',
   rooms: 27,
   phone: '9351111139',
   phoneIntl: '919351111139', // wa.me / tel format
@@ -20,7 +20,7 @@ export const SITE = {
 
 export const HIGHLIGHTS = [
   { icon: 'bed', title: '27 Premium Rooms', text: 'Spacious, elegant rooms across three curated categories.' },
-  { icon: 'temple', title: '700 m from Mandir', text: 'A short, easy walk to Khatu Shyam Ji darshan.' },
+  { icon: 'temple', title: '300 m from Mandir', text: 'A short, easy walk to Khatu Shyam Ji darshan.' },
   { icon: 'dining', title: 'In-house Restaurant', text: 'Fresh, satisfying meals served all day.' },
   { icon: 'parking', title: 'Spacious Parking', text: 'Ample, secure parking for cars and larger vehicles.' },
   { icon: 'banquet', title: 'Banquet Hall', text: 'An elegant venue for functions, events and gatherings.' },
@@ -29,7 +29,7 @@ export const HIGHLIGHTS = [
 
 export const STATS = [
   { value: '27', label: 'Premium Rooms' },
-  { value: '700m', label: 'To the Mandir' },
+  { value: '300m', label: 'To the Mandir' },
   { value: '3', label: 'Room Categories' },
   { value: '24/7', label: 'Front Desk' },
 ]
