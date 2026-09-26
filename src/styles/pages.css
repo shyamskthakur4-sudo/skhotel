@@ -116,6 +116,9 @@
 .rdetail__meta { display: flex; flex-wrap: wrap; gap: 26px; margin: 24px 0; padding: 20px 0; border-block: 1px solid var(--line); }
 .rdetail__meta div span { font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-mute); display: block; }
 .rdetail__meta div b { font-family: var(--font-display); font-size: 1.35rem; color: var(--ink); font-weight: 460; }
+.rdetail__price { display: flex; align-items: baseline; gap: 10px; margin: -8px 0 26px; }
+.rdetail__price span { font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-mute); font-weight: 700; }
+.rdetail__price strong { font-family: var(--font-display); font-size: 1.65rem; color: var(--gold-ink); font-weight: 520; }
 .rdetail__feats { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; margin-bottom: 30px; }
 .rdetail__feats li { display: flex; gap: 10px; align-items: center; color: var(--text-soft); font-size: 0.95rem; }
 .rdetail__feats svg { width: 17px; height: 17px; color: var(--gold-deep); flex: none; }
