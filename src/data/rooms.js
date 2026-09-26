@@ -12,6 +12,7 @@ export const ROOMS = [
     size: '220 sq.ft',
     occupancy: '2 Guests',
     bed: 'Queen Bed',
+    price: '₹4,500 + GST',
     features: [
       'Air Conditioning',
       'Free Wi-Fi',
@@ -32,6 +33,7 @@ export const ROOMS = [
     size: '300 sq.ft',
     occupancy: '2–3 Guests',
     bed: 'King Bed',
+    price: '₹3,000 + GST',
     features: [
       'Air Conditioning',
       'Free Wi-Fi',
@@ -52,6 +54,7 @@ export const ROOMS = [
     size: '400 sq.ft',
     occupancy: '3–4 Guests',
     bed: 'King Bed + Sofa',
+    price: '₹4,000 + GST',
     features: [
       'Air Conditioning',
       'High-speed Wi-Fi',
