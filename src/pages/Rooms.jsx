@@ -43,6 +43,10 @@ function RoomRow({ room, index }) {
               <div><span>Sleeps</span><b>{room.occupancy}</b></div>
               <div><span>Bed</span><b>{room.bed}</b></div>
             </div>
+            <div className="rdetail__price">
+              <span>Room Tariff</span>
+              <strong>{room.price}</strong>
+            </div>
           </Reveal>
 
           <Reveal delay={0.16}>
