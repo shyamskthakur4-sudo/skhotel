@@ -13,6 +13,10 @@ export default function RoomCard({ room }) {
       </div>
       <div className="room__body">
         <h3 className="room__name">{room.name}</h3>
+        <div className="room__price">
+          <span>From</span>
+          <strong>{room.price}</strong>
+        </div>
         <p className="room__blurb">{room.blurb}</p>
         <div className="room__meta">
           <span><Icon name="expand" /> {room.size}</span>
