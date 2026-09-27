@@ -19,6 +19,7 @@ export const ROOMS = [
       'Smart LED TV',
       'Premium Toiletries',
       'Priority Room Service',
+      'Car Parking Available',
     ],
   },
   {
@@ -40,6 +41,7 @@ export const ROOMS = [
       'Premium Toiletries',
       'Seating Area',
       'Room Service',
+      'Car Parking Available',
     ],
   },
   {
@@ -61,6 +63,7 @@ export const ROOMS = [
       'Hot & Cold Water',
       'Daily Housekeeping',
       'Room Service',
+      'Car Parking Available',
     ],
   },
 ]
