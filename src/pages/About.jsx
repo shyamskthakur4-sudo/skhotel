@@ -70,7 +70,7 @@ export default function About() {
       {/* Highlights */}
       <section className="section">
         <div className="container">
-          <SectionHead center eyebrow="What We Offer" title="Comfort in every detail" />
+          <SectionHead center eyebrow="Hotel Services" title="Comfort in every detail" />
           <div className="hlist">
             {HIGHLIGHTS.map((h, i) => (
               <Reveal as="div" className="hlist__item" key={h.title} delay={(i % 2) * 0.06}>
