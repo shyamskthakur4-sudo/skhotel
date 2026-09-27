@@ -206,7 +206,7 @@ export default function Home() {
       {/* ================= HIGHLIGHTS (editorial list) ================= */}
       <section className="section section--tight">
         <div className="container">
-          <SectionHead eyebrow="Key Highlights" title="Why guests choose Shri Kalyan" />
+          <SectionHead eyebrow="Hotel Services" title="Everything you need for a comfortable stay" />
           <div className="hlist">
             {HIGHLIGHTS.map((h, i) => (
               <Reveal as="div" className="hlist__item" key={h.title} delay={(i % 2) * 0.06}>
