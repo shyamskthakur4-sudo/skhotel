@@ -22,7 +22,7 @@ export const HIGHLIGHTS = [
   { icon: 'bed', title: '27 Premium Rooms', text: 'Spacious, elegant rooms across three curated categories.' },
   { icon: 'temple', title: '300 m from Mandir', text: 'A short, easy walk to Khatu Shyam Ji darshan.' },
   { icon: 'dining', title: 'In-house Restaurant', text: 'Fresh, satisfying meals served all day.' },
-  { icon: 'parking', title: 'Spacious Parking', text: 'Ample, secure parking for cars and larger vehicles.' },
+  { icon: 'parking', title: 'Car Parking Available', text: 'Convenient on-site car parking is available for hotel guests.' },
   { icon: 'banquet', title: 'Banquet Hall', text: 'An elegant venue for functions, events and gatherings.' },
   { icon: 'family', title: 'For Every Traveller', text: 'Ideal for families, pilgrims, groups and corporate guests.' },
 ]
