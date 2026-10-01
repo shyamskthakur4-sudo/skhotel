@@ -48,8 +48,8 @@ export const ROOMS = [
     id: 'deluxe',
     name: 'Deluxe Room',
     tier: 'Signature',
-    image: IMG.executive,
-    gallery: [IMG.executive, IMG.roomA, IMG.roomB],
+    image: IMG.deluxeNew1,
+    gallery: [IMG.deluxeNew1, IMG.deluxeNew2, IMG.deluxeNew3],
     blurb:
       'A refined, restful retreat for the mindful traveller — thoughtfully appointed with everything you need after a day of darshan.',
     size: '220 sq.ft',
