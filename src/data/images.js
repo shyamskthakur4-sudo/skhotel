@@ -3,6 +3,7 @@
 // Optimized copies live in /public/images (see scripts/optimize.mjs).
 // ─────────────────────────────────────────────────────────────────────────
 const p = (name) => `/images/${name}.jpg`
+const w = (name) => `/images/${name}.webp`
 
 export const IMG = {
   // Exterior / hero
@@ -37,6 +38,9 @@ export const IMG = {
   roomF: p('room-f'),
   roomG: p('room-g'),
   roomH: p('room-h'),
+  deluxeNew1: w('deluxe-room-1'),
+  deluxeNew2: w('deluxe-room-2'),
+  deluxeNew3: w('deluxe-room-3'),
 }
 
 // Gallery grid — every supplied photo, curated order
