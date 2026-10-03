@@ -5,8 +5,8 @@ export const ROOMS = [
     id: 'executive',
     name: 'Executive Room',
     tier: 'Comfort',
-    image: IMG.superDeluxe,
-    gallery: [IMG.superDeluxe, IMG.roomE, IMG.roomG],
+    image: IMG.executiveNew1,
+    gallery: [IMG.executiveNew1, IMG.executiveNew2, IMG.executiveNew3],
     blurb:
       'Our finest stay — generous proportions, plush finishes and a serene ambience crafted for families and discerning guests.',
     size: '400 sq.ft',
