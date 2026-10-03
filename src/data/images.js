@@ -41,6 +41,9 @@ export const IMG = {
   deluxeNew1: w('deluxe-room-1'),
   deluxeNew2: w('deluxe-room-2'),
   deluxeNew3: w('deluxe-room-3'),
+  executiveNew1: w('executive-room-1'),
+  executiveNew2: w('executive-room-2'),
+  executiveNew3: w('executive-room-3'),
 }
 
 // Gallery grid — every supplied photo, curated order
