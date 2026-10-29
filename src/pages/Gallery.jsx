@@ -14,6 +14,15 @@ const VIDEOS = [
   { id: '1taLuMM0b62wroAsFja6T5WtUj7RUsxXG', title: 'Hotel Video 03' },
   { id: '15AIqAeQcp7BuKsO52qXO5AXu5wO_hZZi', title: 'Hotel Video 04' },
   { id: '1VgfXipI0uSr86ZLa-H3RI4MUgjnnaFJ5', title: 'Hotel Video 05' },
+  { id: '11s-rc_AfCbCC6oZwxuEFYzXflUTPFbgk', title: 'Hotel Video 06' },
+  { id: '1Pi-86giMDYoNuvI1WMU2TqcvcTtjSQyT', title: 'Hotel Video 07' },
+  { id: '1xs7b54EXjrE-p19pS-PQgwAPXlu6z9ii', title: 'Hotel Video 08' },
+  { id: '1BczQQ-Mq0hzG1FBvjHreiQ3FzTOcvd_B', title: 'Hotel Video 09' },
+  { id: '1PUiCubDEIx6viAjJ18264tnB-5JOUGwK', title: 'Hotel Video 10' },
+  { id: '17JpqKKR0rvZRw-4mIGmbW_D0zopOY3l7', title: 'Hotel Video 11' },
+  { id: '1R7E2Ls1_9UkbO9rzhzJe4ldZFpYXF1e3', title: 'Hotel Video 12' },
+  { id: '1R9ZVIHFDZmWPSLd4U2_yFrwQhvOfFX4s', title: 'Hotel Video 13' },
+  { id: '1uuTbrBH3EGmj1y3YB-4RiSDxDCrUooHK', title: 'Hotel Video 14' },
 ]
 
 const TABS = ['All', ...Array.from(new Set(GALLERY.map((g) => g.tag)))]
