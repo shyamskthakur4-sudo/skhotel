@@ -82,41 +82,6 @@ export default function Gallery() {
         </div>
       </section>
 
-      <section className="section section--tight video-section">
-        <div className="container">
-          <Reveal>
-            <div className="shead">
-              <span className="eyebrow">Watch &amp; Explore</span>
-              <h2>Hotel Videos</h2>
-              <p>Take a closer look at Shri Kalyan Hotel &amp; Restaurant through our videos.</p>
-            </div>
-          </Reveal>
-          <div className="video-gallery">
-            {VIDEOS.map((video, i) => (
-              <Reveal as="article" className="video-card" key={video.id} y={24} delay={(i % 2) * 0.06}>
-                <div className="video-card__frame">
-                  <iframe
-                    src={`https://drive.google.com/file/d/${video.id}/preview`}
-                    title={video.title}
-                    loading="lazy"
-                    allow="autoplay; encrypted-media; picture-in-picture"
-                    allowFullScreen
-                    referrerPolicy="strict-origin-when-cross-origin"
-                  />
-                </div>
-                <div className="video-card__caption">
-                  <span>VIDEO {String(i + 1).padStart(2, '0')}</span>
-                  <h3>{video.title}</h3>
-                  <a href={`https://drive.google.com/file/d/${video.id}/view`} target="_blank" rel="noreferrer">
-                    Open video <Icon name="arrowRight" />
-                  </a>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="section section--tight">
         <div className="container">
           {/* Filter tabs */}
@@ -158,6 +123,43 @@ export default function Gallery() {
           </div>
         </div>
       </section>
+
+      <section className="section section--tight video-section">
+        <div className="container">
+          <Reveal>
+            <div className="shead">
+              <span className="eyebrow">Watch &amp; Explore</span>
+              <h2>Hotel Videos</h2>
+              <p>Take a closer look at Shri Kalyan Hotel &amp; Restaurant through our videos.</p>
+            </div>
+          </Reveal>
+          <div className="video-gallery">
+            {VIDEOS.map((video, i) => (
+              <Reveal as="article" className="video-card" key={video.id} y={24} delay={(i % 2) * 0.06}>
+                <div className="video-card__frame">
+                  <iframe
+                    src={`https://drive.google.com/file/d/${video.id}/preview`}
+                    title={video.title}
+                    loading="lazy"
+                    allow="autoplay; encrypted-media; picture-in-picture"
+                    allowFullScreen
+                    referrerPolicy="strict-origin-when-cross-origin"
+                  />
+                </div>
+                <div className="video-card__caption">
+                  <span>VIDEO {String(i + 1).padStart(2, '0')}</span>
+                  <h3>{video.title}</h3>
+                  <a href={`https://drive.google.com/file/d/${video.id}/view`} target="_blank" rel="noreferrer">
+                    Open video <Icon name="arrowRight" />
+                  </a>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
 
       <AnimatePresence>
         {active !== null && shown[active] && (
