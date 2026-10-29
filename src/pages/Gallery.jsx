@@ -8,6 +8,14 @@ import Icon from '../components/Icon'
 import Reveal from '../components/Reveal'
 import { GALLERY, IMG } from '../data/images'
 
+const VIDEOS = [
+  { id: '1a3ZZ-JSogB2Gv_wzAhkoXcus_LHnJiFZ', title: 'Hotel Video 01' },
+  { id: '1-gssho-6OztCN5wo6jZR-SxmzOu4XYYB', title: 'Hotel Video 02' },
+  { id: '1taLuMM0b62wroAsFja6T5WtUj7RUsxXG', title: 'Hotel Video 03' },
+  { id: '15AIqAeQcp7BuKsO52qXO5AXu5wO_hZZi', title: 'Hotel Video 04' },
+  { id: '1VgfXipI0uSr86ZLa-H3RI4MUgjnnaFJ5', title: 'Hotel Video 05' },
+]
+
 const TABS = ['All', ...Array.from(new Set(GALLERY.map((g) => g.tag)))]
 
 // Deterministic editorial mosaic: one featured tile + a rhythm of tall/wide.
@@ -62,6 +70,41 @@ export default function Gallery() {
           <Reveal delay={0.16}>
             <p>Rooms, mural corridors and sunlit spaces — the calm, comfortable world of Shri Kalyan.</p>
           </Reveal>
+        </div>
+      </section>
+
+      <section className="section section--tight video-section">
+        <div className="container">
+          <Reveal>
+            <div className="shead">
+              <span className="eyebrow">Watch &amp; Explore</span>
+              <h2>Hotel Videos</h2>
+              <p>Take a closer look at Shri Kalyan Hotel &amp; Restaurant through our videos.</p>
+            </div>
+          </Reveal>
+          <div className="video-gallery">
+            {VIDEOS.map((video, i) => (
+              <Reveal as="article" className="video-card" key={video.id} y={24} delay={(i % 2) * 0.06}>
+                <div className="video-card__frame">
+                  <iframe
+                    src={`https://drive.google.com/file/d/${video.id}/preview`}
+                    title={video.title}
+                    loading="lazy"
+                    allow="autoplay; encrypted-media; picture-in-picture"
+                    allowFullScreen
+                    referrerPolicy="strict-origin-when-cross-origin"
+                  />
+                </div>
+                <div className="video-card__caption">
+                  <span>VIDEO {String(i + 1).padStart(2, '0')}</span>
+                  <h3>{video.title}</h3>
+                  <a href={`https://drive.google.com/file/d/${video.id}/view`} target="_blank" rel="noreferrer">
+                    Open video <Icon name="arrowRight" />
+                  </a>
+                </div>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
 
